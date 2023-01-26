@@ -1,0 +1,2 @@
+from django.core.signals import request_finished
+request_finished.disconnect(dispatch_uid=REQUEST_FINISH_DISPATCH_UID)
